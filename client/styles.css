@@ -1,0 +1,26 @@
+.title {
+	text-align: center;
+}
+
+.yip-form {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.loading {
+	text-align: center;
+}
+
+.yips {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.yips p,
+small {
+	border: 1px solid black;
+}
+
+.yips h3 {
+	font-size: 25px;
+}
