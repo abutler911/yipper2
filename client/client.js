@@ -3,7 +3,7 @@ console.log('Hello World!');
 const form = document.querySelector('form');
 const loadingElement = document.querySelector('.loading');
 const yipsElement = document.querySelector('.yips');
-const API_URL = 'http://localhost:5000/yips';
+const API_URL = window.location.hostname ? 'http://localhost:5000/yips' : 'https://yipper2.vercel.app/yips';
 
 loadingElement.style.display = ' ';
 
